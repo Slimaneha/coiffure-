@@ -111,13 +111,61 @@ textarea {
         background-color: white;
     }
 
+    .bd-example-modal-lg{
+        width: 100%;
+    }
+
+    .modal-content{
+         
+        background-color: #2E2E2E;
+        color: darkorchid;
+    }
+
+    .photo{
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photo img {
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+    #navbar {
+      
+        height: 38px;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        background-color: #2E2E2E;
+        border-bottom: dashed 1px darkorchid; 
+        
+    }
+    #logo2{
+        display: none;
+    }    
+    .navbar-toggler-icon {
+        color: darkorchid;
+    }
+    
+    #navbar a {
+        color: darkorchid;
+        margin-left: 2px;
+        font-size: 20px;
+    }
+        .container-fluid{
+            margin-top: 3em;
+        }
+    .media {
+        color: darkorchid;  
+    }
+
   body{
       background-color: #2E2E2E; 
   }
   .jumbotron {
       background-color:#2E2E2E;
       color: darkorchid;
-      border: solid darkorchid 1px ;
+      border: dashed darkorchid 1px ;
       margin-top: 2em;
   }
   select option{
@@ -164,9 +212,7 @@ textarea {
        flex-wrap: wrap;
    }
 
-   .nav-item a {
-       color: orangered;
-   }
+  
 
 #info{
     display: none;
@@ -201,15 +247,33 @@ textarea {
    }
 
    .card-body {
-       border: solid 1px darkorchid;
+       border: dashed 1px darkorchid;
        
        
-   }
-
-   button {
-       border: darkorchid;
    }
    
+   #homme-long{
+       justify-content: center;
+   }
+
+
+   #homme-court{
+       justify-content: center;
+   }
+  
+   
+
+   @media (min-width:800px){
+
+    .card-body {
+        border: dashed 1px darkorchid;
+        width: 400px; 
+        height: 350;   
+        
+    }
+
+
+   }
  
 
 /* ==========================================================================

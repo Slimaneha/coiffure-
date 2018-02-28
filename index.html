@@ -9,7 +9,7 @@
 
 
          <!-- Lien googles Fonte !! -->
-         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+         <script defer class="img-fluid" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
          <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -26,7 +26,7 @@
           <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script class="img-fluid" src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -36,7 +36,7 @@
         <!-- Add your site or application content here -->
       
         		<!-- Images Type  -->
-        <!-- <img src="http://placehold.it/350x150" alt=""> -->
+        <!-- <img class="img-fluid" src="http://placehold.it/350x150" alt=""> -->
             <!-- Fin Images Type  -->
 
 
@@ -52,20 +52,20 @@
 
            
               
-                    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-                        <a class="navbar-brand nav-police" href="index.html">Diavel-coiffure </a>
+                    <nav id="navbar" class="navbar navbar-expand-lg  ">
+                        <a class="navbar-brand nav-police display-4 " href="index.html">Diavel-coiffure <i class="fas fa-cut"></i>  </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
+                          <span class="navbar-toggler-icon"><i class="fas fa-cut"></i> </span>
                         </button>
                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto ">
                             
                             <li class="nav-item"  >
-                                <a class="nav-link text-center disabled  " href="bio.html">Couleur  </a>
+                                <a class="nav-link text-center disabled  text-right " href="bio.html">Couleur  </a>
                             </li>
                             <li class="nav-item"  >
-                                <a class="nav-link text-center  " href="information.html">Information partique </a>
+                                <a class="nav-link text-center text-right  " href="information.html">Information partique </a>
                             </li>
                              </ul>
                         </div> 
@@ -78,32 +78,32 @@
                                 <div class="container">
                                         
                                         <h1 class="display-5 centre ">Bienvenue au Salon Diavel </h1> 
-                                        <img src="img/logo.png" alt="Logo ">
+                                        <img class="img-fluid" src="img/logo.png" alt="Logo ">
                                     <h1>Notre catalogues !   </h1>
                                   
                                   <p class="lead">Votre personnalité & notre style ! </p>
                                   <select id="form" class="custom-select">
-                                        <option selected>Sélectionner notre style </option>
+                                        <option selected>Sélectionner votre style </option>
                                         <option id="1" value="1"></option>
                                         <option id="2" value="2"></option>
                                         <option id="3" value="3"></option>
                                       </select> 
-                                      <button onClick="choix()"  type="button" class="btn btn-outline-secondary"> <i class="fas fa-cut"></i>  Envoyer  <i class="fas fa-cut"></i></button>                                  
+                                      <button id="button" onClick="choix()"  type="button" class="btn btn-outline-secondary"> <i class="fas fa-cut"></i>  Envoyer  <i class="fas fa-cut"></i></button>                                  
                                 </div>
                               </div>
     
 
-                          <div class="jumbotron deux jumbotron-fluid">
+                       <!--   <div class="jumbotron deux jumbotron-fluid">
                          
                                 <div class="container">
                                 
                                   
-                                <img id="cc" class="img-fluid" src="img/01.jpg " alt="covert ">  
+                                <img id="cc" class="img-fluid" class="img-fluid" src="img/01.jpg " alt="covert ">  
                               
                                 
                                 </div>
                               </div>
-
+                            -->
 
 
                    
@@ -113,7 +113,7 @@
 <!-- Disponibilité : <strong class="dispo"> Disponibles</strong> ! <br> -->
 
                         <div class="container-fluid centre">
-                            <h1 id="homme1">homme Court</h1>
+                            <h1 id="homme1">homme court</h1>
                             <h1 id="homme2">homme Long </h1>
                             <h1 id="femme1">Femme</h1>
                         </div>
@@ -125,9 +125,9 @@
                             <li class="centre ">
                                     <div class="card">
                                             <div class="card-body">
-                                              <h4 class="card-title">homme-court </h4>
+                                              <h4 class="card-title">homme court </h4>
                                               <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                <img src="http://placehold.it/100x100" alt="">
+                                                <img class="img-fluid" src="img/clx/1.png" alt="">
                                                 <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                         Voir plus ! 
                                                       </button>
@@ -136,9 +136,9 @@
                             </li>
                             <li class="centre ">  <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -150,9 +150,9 @@
                             <li class="centre ">
                                     <div class="card">
                                             <div class="card-body">
-                                              <h4 class="card-title">homme-court</h4>
+                                              <h4 class="card-title">homme court</h4>
                                               <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                <img src="http://placehold.it/100x100" alt="">
+                                                <img class="img-fluid" src="img/clx/1.png" alt="">
                                                 <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus !       
                                                       </button>
@@ -163,9 +163,9 @@
                             <li class="centre ">
                                     <div class="card">
                                             <div class="card-body">
-                                              <h4 class="card-title">homme-court</h4>
+                                              <h4 class="card-title">homme court</h4>
                                               <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                <img src="http://placehold.it/100x100" alt="">
+                                                <img class="img-fluid" src="img/clx/1.png" alt="">
                                                 <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                         Voir plus ! 
                                                       </button>
@@ -175,9 +175,9 @@
                                 
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -186,9 +186,9 @@
                                   </div></li>
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -196,9 +196,9 @@
                                   </div></li>
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -206,9 +206,9 @@
                                   </div></li>
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -216,9 +216,9 @@
                                   </div></li>
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -226,9 +226,9 @@
                                   </div></li>
                             <li class="centre "> <div class="card">
                                     <div class="card-body">
-                                      <h4 class="card-title">homme-court</h4>
+                                      <h4 class="card-title">homme court</h4>
                                       <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                        <img src="http://placehold.it/100x100" alt="">
+                                        <img class="img-fluid" src="img/clx/1.png" alt="">
                                         <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                 Voir plus ! 
                                               </button>
@@ -237,9 +237,9 @@
                                   <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -249,23 +249,9 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
-                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                            Voir plus ! 
-                                                          </button>
-                                                </div>
-                                              </div>
-                                </li>
-                                <!---------------------- -->
-
-                                <li class="centre ">
-                                        <div class="card">
-                                                <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
-                                                  <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -277,9 +263,9 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -291,9 +277,23 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
+                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                                            Voir plus ! 
+                                                          </button>
+                                                </div>
+                                              </div>
+                                </li>
+                                <!---------------------- -->
+
+                                <li class="centre ">
+                                        <div class="card">
+                                                <div class="card-body">
+                                                  <h4 class="card-title">homme court</h4>
+                                                  <h6 class="card-subtitle mb-2 text-muted">01</h6>
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -304,9 +304,9 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -319,9 +319,9 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">homme court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -333,9 +333,9 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">homme-court</h4>
+                                                  <h4 class="card-title">hommee court</h4>
                                                   <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
+                                                    <img class="img-fluid" src="img/clx/1.png" alt="">
                                                     <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
                                                             Voir plus ! 
                                                           </button>
@@ -352,10 +352,10 @@
                                 <li class="centre homme">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">centre -long </h4>
-                                                  <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
-                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                                  <h4 class="card-title">homme-long </h4>
+                                                  <h6 class="card-subtitle mb-2 text-muted">07</h6>
+                                                    <img class="img-fluid" src="img/cl7/1.png" alt="">
+                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".1">
                                                             Voir plus ! 
                                                           </button>
                                                 </div>
@@ -363,10 +363,10 @@
                                 </li>
                                 <li class="centre ">  <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°09</h6>
+                                            <img class="img-fluid" src="img/cl9/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".2">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
@@ -377,10 +377,10 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">centre -long</h4>
-                                                  <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
-                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                                  <h4 class="card-title">homme-long</h4>
+                                                  <h6 class="card-subtitle mb-2 text-muted">13</h6>
+                                                    <img class="img-fluid" src="img/cl13/1.png" alt="">
+                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".3">
                                                             Voir plus ! 
                                                           </button>
                                                 </div>
@@ -389,10 +389,10 @@
                                 <li class="centre ">
                                         <div class="card">
                                                 <div class="card-body">
-                                                  <h4 class="card-title">centre -long</h4>
-                                                  <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                    <img src="http://placehold.it/100x100" alt="">
-                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                                  <h4 class="card-title">homme-long</h4>
+                                                  <h6 class="card-subtitle mb-2 text-muted">n°15</h6>
+                                                    <img class="img-fluid" src="img/cl15/1.png" alt="">
+                                                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".4">
                                                             Voir plus ! 
                                                           </button>
                                                 </div>
@@ -401,60 +401,60 @@
                                     
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°16</h6>
+                                            <img class="img-fluid" src="img/cl16/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".5">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
                                       </div></li>
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°17</h6>
+                                            <img class="img-fluid" src="img/cl17/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".6">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
                                       </div></li>
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°20</h6>
+                                            <img class="img-fluid" src="img/cl20/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".7">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
                                       </div></li>
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°22</h6>
+                                            <img class="img-fluid" src="img/cl22/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".8">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
                                       </div></li>
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                    Voir plus ! 
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°31</h6>
+                                            <img class="img-fluid" src="img/cl31/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".9">
+                                      Voir plus ! 
                                                   </button>
                                         </div>
                                       </div></li>
                                 <li class="centre "> <div class="card">
                                         <div class="card-body">
-                                          <h4 class="card-title">centre -long</h4>
-                                          <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                            <img src="http://placehold.it/100x100" alt="">
-                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                          <h4 class="card-title">homme-long</h4>
+                                          <h6 class="card-subtitle mb-2 text-muted">n°35</h6>
+                                            <img class="img-fluid" src="img/cl35/1.png" alt="">
+                                            <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".10">
                                                     Voir plus ! 
                                                   </button>
                                         </div>
@@ -462,124 +462,432 @@
                                       <li class="centre ">
                                             <div class="card">
                                                     <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                                      <h4 class="card-title">homme-long</h4>
+                                                      <h6 class="card-subtitle mb-2 text-muted">n°36</h6>
+                                                        <img class="img-fluid" src="img/cl36/1.png" alt="">
+                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".11">
                                                                 Voir plus ! 
                                                               </button>
                                                     </div>
                                                   </div>
                                     </li>
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-    
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-    
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-    
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-    
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button>
-                                                    </div>
-                                                  </div>
-                                    </li>
-                                    <li class="centre ">
-                                            <div class="card">
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">centre -long</h4>
-                                                      <h6 class="card-subtitle mb-2 text-muted">01</h6>
-                                                        <img src="http://placehold.it/100x100" alt="">
-                                                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                                Voir plus ! 
-                                                              </button> 
-                                                    </div>
-                                                  </div>
-                                    </li>
+                                
                             </ul>
 
                         
-                                  
-         
+            
+                            
+
+
+
+
+
+                        <!--    Modial coup long (18 modial)  -->
+                  
+
+
+
+                   <div class="modal fade bd-example-modal-lg  1 " tabindex="-1" role="dialog"
+                   aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <h2 class="centre">Coup n°07</h2>
+
+                    <figure class="photo">
+                      <img class="img-fluid" src="img/cl7/1.png" alt="photo ">
+                      <img class="img-fluid" src="img/cl7/2.png" alt="">
+                      <img class="img-fluid" src="img/cl7/3.png" alt="">
+                      <img class="img-fluid" src="img/cl7/4.png" alt="">
+                    </figure4
+                  </div4
+                  <div 4lass="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+                   </div>
+                </div>
+              </div>
+
+
+
+
+
+
+              <div class="modal fade bd-example-modal-lg  2 " tabindex="-1" role="dialog"
+              aria-labelledby="myLargeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-lg">
+             <div class="modal-content">
+               <h2 class="centre">Coup n°1</h2>
+
+               <figure class="photo">
+                 <img class="img-fluid" src="img/clx/1.png" alt="">
+                 <img class="img-fluid" src="img/clx/2.png" alt="">
+                 <img class="img-fluid" src="img/clx/3.png" alt="">
+                 <img class="img-fluid" src="img/clx/4.png" alt="">
+               </figure4
+             </div4
+             <div 4lass="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+              </div>
+           </div>
+         </div>
+
+
+
+         <div class="modal fade bd-example-modal-lg  3 " tabindex="-1" role="dialog"
+         aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <h2 class="centre">Coup n°2</h2>
+
+          <figure class="photo">
+            <img class="img-fluid" src="img/clx/1.png" alt="">
+            <img class="img-fluid" src="img/clx/2.png" alt="">
+            <img class="img-fluid" src="img/clx/3.png" alt="">
+            <img class="img-fluid" src="img/clx/4.png" alt="">
+          </figure4
+        </div4
+        <div 4lass="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+         </div>
+      </div>
+    </div>
+
+
+
+    <div class="modal fade bd-example-modal-lg  4 " tabindex="-1" role="dialog"
+    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+     <h2 class="centre">Coup n°3</h2>
+
+     <figure class="photo">
+       <img class="img-fluid" src="img/clx/1.png" alt="">
+       <img class="img-fluid" src="img/clx/2.png" alt="">
+       <img class="img-fluid" src="img/clx/3.png" alt="">
+       <img class="img-fluid" src="img/clx/4.png" alt="">
+     </figure4
+   </div4
+   <div 4lass="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+    </div>
+ </div>
+</div>
+
+
+
+<div class="modal fade bd-example-modal-lg  5 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°4</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+<div class="modal fade bd-example-modal-lg  6 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°5</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+  <div class="modal fade bd-example-modal-lg  7 " tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                       <div class="modal-content">
+                         <h2 class="centre">Coup n°6</h2>
+
+                         <figure class="photo">
+                           <img class="img-fluid" src="img/clx/1.png" alt="">
+                           <img class="img-fluid" src="img/clx/2.png" alt="">
+                           <img class="img-fluid" src="img/clx/3.png" alt="">
+                           <img class="img-fluid" src="img/clx/4.png" alt="">
+                         </figure4
+                       </div4
+                       <div 4lass="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+                        </div>
+                     </div>
+                   </div>
+
+
+
+
+                   <div class="modal fade bd-example-modal-lg  8 " tabindex="-1" role="dialog"
+                   aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <h2 class="centre">Coup n°XX</h2>
+
+                    <figure class="photo">
+                      <img class="img-fluid" src="img/clx/1.png" alt="">
+                      <img class="img-fluid" src="img/clx/2.png" alt="">
+                      <img class="img-fluid" src="img/clx/3.png" alt="">
+                      <img class="img-fluid" src="img/clx/4.png" alt="">
+                    </figure4
+                  </div4
+                  <div 4lass="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+                   </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="modal fade bd-example-modal-lg  9 " tabindex="-1" role="dialog"
+              aria-labelledby="myLargeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-lg">
+             <div class="modal-content">
+               <h2 class="centre">Coup n°XX</h2>
+
+               <figure class="photo">
+                 <img class="img-fluid" src="img/clx/1.png" alt="">
+                 <img class="img-fluid" src="img/clx/2.png" alt="">
+                 <img class="img-fluid" src="img/clx/3.png" alt="">
+                 <img class="img-fluid" src="img/clx/4.png" alt="">
+               </figure4
+             </div4
+             <div 4lass="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+              </div>
+           </div>
+         </div>
+
+
+
+
+         <div class="modal fade bd-example-modal-lg  10 " tabindex="-1" role="dialog"
+         aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <h2 class="centre">Coup n°XX</h2>
+
+          <figure class="photo">
+            <img class="img-fluid" src="img/clx/1.png" alt="">
+            <img class="img-fluid" src="img/clx/2.png" alt="">
+            <img class="img-fluid" src="img/clx/3.png" alt="">
+            <img class="img-fluid" src="img/clx/4.png" alt="">
+          </figure4
+        </div4
+        <div 4lass="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+         </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="modal fade bd-example-modal-lg  11 " tabindex="-1" role="dialog"
+    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+     <h2 class="centre">Coup n°XX</h2>
+
+     <figure class="photo">
+       <img class="img-fluid" src="img/clx/1.png" alt="">
+       <img class="img-fluid" src="img/clx/2.png" alt="">
+       <img class="img-fluid" src="img/clx/3.png" alt="">
+       <img class="img-fluid" src="img/clx/4.png" alt="">
+     </figure4
+   </div4
+   <div 4lass="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+    </div>
+ </div>
+</div>
+
+
+
+
+<div class="modal fade bd-example-modal-lg  12 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="modal fade bd-example-modal-lg  13 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
+
+<div class="modal fade bd-example-modal-lg  14 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
+
+<div class="modal fade bd-example-modal-lg  15 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
+
+<div class="modal fade bd-example-modal-lg  16 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+<div class="modal fade bd-example-modal-lg  17 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade bd-example-modal-lg  18 " tabindex="-1" role="dialog"
+aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+ <h2 class="centre">Coup n°XX</h2>
+
+ <figure class="photo">
+   <img class="img-fluid" src="img/clx/1.png" alt="">
+   <img class="img-fluid" src="img/clx/2.png" alt="">
+   <img class="img-fluid" src="img/clx/3.png" alt="">
+   <img class="img-fluid" src="img/clx/4.png" alt="">
+ </figure4
+</div4
+<div 4lass="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button> 
+</div>
+</div>
+</div>
+
+
+
             
 
-      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script class="img-fluid" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+        window.jQuery || document.write('<script class="img-fluid" src="js/vendor/jquery-1.12.0.min.js"><\/script>')
     </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://use.fontawesome.com/a0c828b765.js"></script>
+    <script class="img-fluid" src="js/plugins.js"></script>
+    <script class="img-fluid" src="js/main.js"></script>
+    <script class="img-fluid" src="js/bootstrap.js"></script>
+    <script class="img-fluid" src="https://use.fontawesome.com/a0c828b765.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
+            e class="img-fluid".src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
