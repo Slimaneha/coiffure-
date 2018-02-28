@@ -112,10 +112,10 @@ textarea {
     }
 
   body{
-      background-color: #222; 
+      background-color: #2E2E2E; 
   }
   .jumbotron {
-      background-color:#222;
+      background-color:#2E2E2E;
       color: orangered;
       border: solid orangered 1px ;
       margin-top: 2em;
@@ -134,7 +134,7 @@ textarea {
   }
 
   h1 {
-      color: orangered;
+      color: darkorchid;
   }
 
   .centre {
@@ -144,6 +144,11 @@ textarea {
 
   .deux{
       border: none;
+  }
+
+  h1 , h2 , h3 {
+    font-family: 'Caveat Brush', cursive;
+
   }
     
   
