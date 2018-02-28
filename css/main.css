@@ -141,6 +141,10 @@ textarea {
       text-align: center;
       justify-content: center;
   }
+
+  .deux{
+      border: none;
+  }
     
   
    .flex {
