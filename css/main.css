@@ -137,6 +137,10 @@ textarea {
       color: darkorchid;
   }
 
+  li {
+      text-align: center;
+  }
+
   .centre {
       text-align: center;
       justify-content: center;
