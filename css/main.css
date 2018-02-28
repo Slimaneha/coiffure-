@@ -201,7 +201,13 @@ textarea {
    }
 
    .card-body {
-       border: solid 1px orangered;   
+       border: solid 1px darkorchid;
+       
+       
+   }
+
+   button {
+       border: darkorchid;
    }
    
  
