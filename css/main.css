@@ -116,13 +116,13 @@ textarea {
   }
   .jumbotron {
       background-color:#2E2E2E;
-      color: orangered;
-      border: solid orangered 1px ;
+      color: darkorchid;
+      border: solid darkorchid 1px ;
       margin-top: 2em;
   }
   select option{
       background-color: #222;
-      color: orangered;
+      color: darkorchid;
   }
 
   button {
@@ -138,7 +138,7 @@ textarea {
   }
 
   li {
-      text-align: center;
+      text-align: center
   }
 
   .centre {
@@ -158,7 +158,7 @@ textarea {
   
    .flex {
       
-       color: orangered;
+       color: darkorchid;
        display: flex; 
        margin-top: 2em;
        flex-wrap: wrap;
@@ -175,12 +175,26 @@ textarea {
 
    .flex li {
    
-       color: white;
+       color: darkorchid;
        margin-top: 1em; 
        margin-left: 2em;
        list-style: none ;
    }
 
+   #cc{
+       width: 70%;
+       text-align: center; 
+
+
+   }
+
+   #formulaire{
+       border-bottom: solid darkorchid ; 
+   }
+
+   .jumbotron{
+       border: none;
+   }
     .card {
         background-color: #222;
        
